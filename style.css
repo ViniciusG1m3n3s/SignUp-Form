@@ -191,6 +191,7 @@ body {
     }
 
     .popup_a_mobile {
+        text-decoration: none;
         display: inline;
         border-radius: 5px;
         background-color: rgb(39, 22, 167);
