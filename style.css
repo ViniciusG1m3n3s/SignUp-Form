@@ -14,6 +14,7 @@ body {
     backdrop-filter: blur(8px);
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 .container_top {
