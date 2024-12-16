@@ -5,12 +5,18 @@ body {
     justify-content: center;
     font-family: Poppins;
     background-image: url(./images/bg-intro-desktop.png);
-    background-color: rgb(255, 121, 120);
-    overflow: hidden;
+    background-color: rgb(6, 4, 49);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    margin: 0;
 }
 
 .container_top {
-    margin-top: 5%;
     width: 1080px;
     display: flex;
     flex-direction: row;
@@ -23,7 +29,7 @@ body {
     display: inline-block;
     line-height: 48px;
     border-radius: 5px;
-    background-color: rgb(93, 84, 163);
+    background-color: rgb(39, 22, 167);
     color: white;
     width: 540px;
     text-align: center;
@@ -35,7 +41,7 @@ body {
 }
 
 .popup_a:hover {
-    background-color: rgb(54, 48, 100);
+    background-color: rgb(52, 29, 226);
     transition: all 0.2s linear;
     -webkit-box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.17);
     -moz-box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.17);
@@ -74,6 +80,10 @@ body {
     justify-content: center;
 }
 
+.fa fa-arrow-right {
+    padding-left: 100px;
+}
+
 .info h1 {
     color: #ffff;
     font-size: 40px;
@@ -105,7 +115,7 @@ body {
     width: 100%;
     height: 48px;
     border-radius: 5px;
-    background-color: rgb(55, 204, 138);
+    background-color: rgb(17, 73, 203);
     color: #ffff;
     border: 0px;
     font-weight: bold;
@@ -114,7 +124,7 @@ body {
 
 .button:hover {
     transition: all 0.2s linear;
-    background-color: rgb(31, 153, 98);
+    background-color: rgb(46, 93, 203);
     cursor: pointer;
 }
 
@@ -126,10 +136,14 @@ body {
 
 .form a {
     text-decoration: none;
-    color: rgb(223, 131, 136);
+    color: rgb(46, 93, 203);
     text-align: center;
 }
 
+.terms:hover {
+    color: rgb(46, 93, 203);
+    text-decoration: underline;
+}
 @media screen and (max-width: 450px) {
     body {
         display: flex;
@@ -179,7 +193,7 @@ body {
     .popup_a_mobile {
         display: inline;
         border-radius: 5px;
-        background-color: rgb(93, 84, 163);
+        background-color: rgb(39, 22, 167);
         color: white;
         text-align: center;
         font-size: 13px;
@@ -195,7 +209,7 @@ body {
     }
 
     .popup_a_mobile:hover {
-        background-color: rgb(54, 48, 100);
+        background-color: rgb(52, 29, 226);
         transition: all 0.2s linear;
         -webkit-box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.17);
         -moz-box-shadow: 0px 8px 0px 0px rgba(0,0,0,0.17);
